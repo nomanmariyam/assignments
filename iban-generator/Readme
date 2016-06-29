@@ -1,17 +1,17 @@
 Step to Use Iban Generator
 1. Build the tool mvn clean install
 2. Put the generated Jar file into classpath of your project or use maven dependency  
-	<dependency>
-        <groupId>com.lendico.iban</groupId>
-        <artifactId>iban-generator</artifactId>
-        <version>1.0-SNAPSHOT</version>
-    </dependency>
+<dependency>
+  <groupId>com.lendico.iban</groupId>
+  <artifactId>iban-generator</artifactId>
+  <version>1.0-SNAPSHOT</version>
+</dependency>
     
 3. Use Interface IbanService(IbanServiceImpl implementation class) which provide methods to generate and validate Iban
 
 4. I have used below external dependency for CountryCode enum
-	<dependency>
-	  <groupId>com.neovisionaries</groupId>
-	  <artifactId>nv-i18n</artifactId>
-	  <version>1.20</version>
-	</dependency>
+<dependency>
+  <groupId>com.neovisionaries</groupId>
+  <artifactId>nv-i18n</artifactId>
+  <version>1.20</version>
+</dependency>
